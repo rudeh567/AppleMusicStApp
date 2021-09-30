@@ -18,6 +18,7 @@
 		F002BA4127058D37001F3473 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */; };
 		F002BA4227058D37001F3473 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3F27058D24001F3473 /* Track.swift */; };
 		F002BA4327058D37001F3473 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA4027058D24001F3473 /* TrackManager.swift */; };
+		F0E22BA62705A40E00634349 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E22BA52705A40E00634349 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "취기를 빌려.mp3"; sourceTree = "<group>"; };
 		F002BA46270592B3001F3473 /* Stay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stay.mp3; sourceTree = "<group>"; };
 		F002BA47270592B3001F3473 /* My Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Queen.mp3"; sourceTree = "<group>"; };
+		F0E22BA52705A40E00634349 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,24 +72,58 @@
 		F002BA07270551DC001F3473 /* AppleMusicStApp */ = {
 			isa = PBXGroup;
 			children = (
-				F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */,
-				F002BA3F27058D24001F3473 /* Track.swift */,
-				F002BA4027058D24001F3473 /* TrackManager.swift */,
-				F002BA0E270551DC001F3473 /* Main.storyboard */,
-				F002BA2A270557DD001F3473 /* HomeViewController.swift */,
-				F002BA3427058A6E001F3473 /* TrackCollectionViewCell.swift */,
-				F002BA08270551DC001F3473 /* AppDelegate.swift */,
-				F002BA0A270551DC001F3473 /* SceneDelegate.swift */,
+				F0E22BA42705A3CA00634349 /* Track */,
+				F0E22BA32705A2D800634349 /* Home */,
+				F0E22BA72705A42200634349 /* Style */,
 				F002BA0C270551DC001F3473 /* ViewController.swift */,
 				F002BA13270551DE001F3473 /* LaunchScreen.storyboard */,
+				F002BA0A270551DC001F3473 /* SceneDelegate.swift */,
+				F002BA08270551DC001F3473 /* AppDelegate.swift */,
 				F002BA11270551DE001F3473 /* Assets.xcassets */,
 				F002BA16270551DE001F3473 /* Info.plist */,
+				F0E22BA22705A29900634349 /* Resources */,
+			);
+			path = AppleMusicStApp;
+			sourceTree = "<group>";
+		};
+		F0E22BA22705A29900634349 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F002BA44270592B3001F3473 /* 북향.mp3 */,
 				F002BA46270592B3001F3473 /* Stay.mp3 */,
 				F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */,
 				F002BA47270592B3001F3473 /* My Queen.mp3 */,
 			);
-			path = AppleMusicStApp;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0E22BA32705A2D800634349 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F002BA0E270551DC001F3473 /* Main.storyboard */,
+				F002BA3427058A6E001F3473 /* TrackCollectionViewCell.swift */,
+				F002BA2A270557DD001F3473 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F0E22BA42705A3CA00634349 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				F002BA3F27058D24001F3473 /* Track.swift */,
+				F002BA4027058D24001F3473 /* TrackManager.swift */,
+				F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */,
+			);
+			name = Track;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F0E22BA72705A42200634349 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				F0E22BA52705A40E00634349 /* DefaultStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +201,7 @@
 				F002BA09270551DC001F3473 /* AppDelegate.swift in Sources */,
 				F002BA0B270551DC001F3473 /* SceneDelegate.swift in Sources */,
 				F002BA3527058A6E001F3473 /* TrackCollectionViewCell.swift in Sources */,
+				F0E22BA62705A40E00634349 /* DefaultStyle.swift in Sources */,
 				F002BA4127058D37001F3473 /* Extension+AVPlayerItem.swift in Sources */,
 				F002BA4327058D37001F3473 /* TrackManager.swift in Sources */,
 				F002BA2B270557DD001F3473 /* HomeViewController.swift in Sources */,

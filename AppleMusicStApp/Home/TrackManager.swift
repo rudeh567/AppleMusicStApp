@@ -26,13 +26,6 @@ class TrackManager {
     func loadTracks() -> [AVPlayerItem] {
 //        파일들 읽어서 AVPlayerItem 만들기
         let urls = Bundle.main.urls(forResourcesWithExtension: "mp3", subdirectory: nil) ?? []
-        
-//        var items: [AVPlayerItem] = []
-//        for url in urls {
-//            let item = AVPlayerItem(url: url)
-//            items.append(item)
-//        }
-        
         let items = urls.map { url in
             return AVPlayerItem(url: url)
         }
@@ -58,7 +51,7 @@ class TrackManager {
             let album = Album(title: title, tracks: tracks)
             albums.append(album)
         }
-        return []
+        return albums
     }
     
     // TODO: 오늘의 트랙 랜덤으로 선택
