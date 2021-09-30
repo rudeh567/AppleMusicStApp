@@ -13,8 +13,6 @@
 		F002BA10270551DC001F3473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F002BA0E270551DC001F3473 /* Main.storyboard */; };
 		F002BA12270551DE001F3473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F002BA11270551DE001F3473 /* Assets.xcassets */; };
 		F002BA15270551DE001F3473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F002BA13270551DE001F3473 /* LaunchScreen.storyboard */; };
-		F002BA2227055312001F3473 /* Style in Resources */ = {isa = PBXBuildFile; fileRef = F002BA2127055312001F3473 /* Style */; };
-		F002BA2427055317001F3473 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = F002BA2327055317001F3473 /* Resources */; };
 		F002BA2B270557DD001F3473 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA2A270557DD001F3473 /* HomeViewController.swift */; };
 		F002BA3527058A6E001F3473 /* TrackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3427058A6E001F3473 /* TrackCollectionViewCell.swift */; };
 		F002BA4127058D37001F3473 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */; };
@@ -31,16 +29,14 @@
 		F002BA11270551DE001F3473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F002BA14270551DE001F3473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F002BA16270551DE001F3473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F002BA2127055312001F3473 /* Style */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Style; sourceTree = "<group>"; };
-		F002BA2327055317001F3473 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		F002BA2A270557DD001F3473 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F002BA3427058A6E001F3473 /* TrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
 		F002BA3F27058D24001F3473 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		F002BA4027058D24001F3473 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
-		F002BA44270592B3001F3473 /* 다이나믹 듀오 - 북향 (Feat. 오혁) 가사.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "다이나믹 듀오 - 북향 (Feat. 오혁) 가사.mp3"; sourceTree = "<group>"; };
-		F002BA45270592B3001F3473 /* 산들 - 취기를 빌려 (취향저격 그녀 X 산들)가사.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "산들 - 취기를 빌려 (취향저격 그녀 X 산들)가사.mp3"; sourceTree = "<group>"; };
-		F002BA46270592B3001F3473 /* The Kid LAROI, Justin Bieber - Stay (Lyrics).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Kid LAROI, Justin Bieber - Stay (Lyrics).mp3"; sourceTree = "<group>"; };
+		F002BA44270592B3001F3473 /* 북향.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "북향.mp3"; sourceTree = "<group>"; };
+		F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "취기를 빌려.mp3"; sourceTree = "<group>"; };
+		F002BA46270592B3001F3473 /* Stay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stay.mp3; sourceTree = "<group>"; };
 		F002BA47270592B3001F3473 /* My Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Queen.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,11 +70,6 @@
 		F002BA07270551DC001F3473 /* AppleMusicStApp */ = {
 			isa = PBXGroup;
 			children = (
-				F002BA3D27058D24001F3473 /* Track */,
-				F002BA292705566F001F3473 /* Home */,
-				F002BA2327055317001F3473 /* Resources */,
-				F002BA2127055312001F3473 /* Style */,
-				F002BA272705533A001F3473 /* Player */,
 				F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */,
 				F002BA3F27058D24001F3473 /* Track.swift */,
 				F002BA4027058D24001F3473 /* TrackManager.swift */,
@@ -91,33 +82,12 @@
 				F002BA13270551DE001F3473 /* LaunchScreen.storyboard */,
 				F002BA11270551DE001F3473 /* Assets.xcassets */,
 				F002BA16270551DE001F3473 /* Info.plist */,
-				F002BA44270592B3001F3473 /* 다이나믹 듀오 - 북향 (Feat. 오혁) 가사.mp3 */,
-				F002BA46270592B3001F3473 /* The Kid LAROI, Justin Bieber - Stay (Lyrics).mp3 */,
-				F002BA45270592B3001F3473 /* 산들 - 취기를 빌려 (취향저격 그녀 X 산들)가사.mp3 */,
+				F002BA44270592B3001F3473 /* 북향.mp3 */,
+				F002BA46270592B3001F3473 /* Stay.mp3 */,
+				F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */,
 				F002BA47270592B3001F3473 /* My Queen.mp3 */,
 			);
 			path = AppleMusicStApp;
-			sourceTree = "<group>";
-		};
-		F002BA272705533A001F3473 /* Player */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Player;
-			sourceTree = "<group>";
-		};
-		F002BA292705566F001F3473 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		F002BA3D27058D24001F3473 /* Track */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Track;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,10 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F002BA2227055312001F3473 /* Style in Resources */,
 				F002BA15270551DE001F3473 /* LaunchScreen.storyboard in Resources */,
 				F002BA12270551DE001F3473 /* Assets.xcassets in Resources */,
-				F002BA2427055317001F3473 /* Resources in Resources */,
 				F002BA10270551DC001F3473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
