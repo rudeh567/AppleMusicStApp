@@ -10,7 +10,7 @@ import UIKit
 
 extension AVPlayerItem {
     func convertToTrack() -> Track? {
-        let metadatList = assert.metadata
+        let metadatList = asset.metadata
         
         var trackTitle: String?
         var trackArtist: String?
@@ -47,7 +47,21 @@ extension AVPlayerItem {
 
 extension AVMetadataItem {
     var title: String? {
-        guard let key = commonKey??.rawValue, key == "title" else {
+        guard let key = commonKey?.rawValue, key == "title" else {
+            return nil
+        }
+        return stringValue
+    }
+    
+    var artist: String? {
+        guard let key = commonKey?.rawValue, key == "artist" else {
+            return nil
+        }
+        return stringValue
+    }
+    
+    var albumName: String? {
+        guard let key = commonKey?.rawValue, key == "albumName" else {
             return nil
         }
         return stringValue
@@ -56,7 +70,7 @@ extension AVMetadataItem {
     var artwork: UIImage? {
         guard let key = commonKey?.rawValue, key == "artwork", let data = dataValue, let image = UIImage(data: data)
             else {
-            return nil
+                return nil
         }
         return image
     }

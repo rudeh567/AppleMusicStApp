@@ -12,14 +12,14 @@ class TrackManager {
     // TODO: 프로퍼티 정의하기 - 트랙들, 앨범들, 오늘의 곡
     var tracks: [AVPlayerItem] = []
     var albums: [Album] = []
-    var todayTrack: AVPlayerItem?
+    var todaysTrack: AVPlayerItem?
     
     // TODO: 생성자 정의하기
     init() {
         let tracks = loadTracks()
         self.tracks = tracks
         self.albums = loadAlbums(tracks: tracks)
-        self.todayTrack = self.tracks.randomElement()
+        self.todaysTrack = self.tracks.randomElement()
     }
 
     // TODO: 트랙 로드하기
@@ -63,6 +63,6 @@ class TrackManager {
     
     // TODO: 오늘의 트랙 랜덤으로 선택
     func loadOtherTodaysTrack() {
-        self.todayTrack = self.tracks.randomElement()
+        self.todaysTrack = self.tracks.randomElement()
     }
 }
