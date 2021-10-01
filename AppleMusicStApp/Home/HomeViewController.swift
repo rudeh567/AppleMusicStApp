@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import simd
 
 class HomeViewController: UIViewController {
     // TODO: 트랙관리 객체 추가
@@ -50,13 +49,8 @@ extension HomeViewController: UICollectionViewDataSource {
                     TrackCollectionHeaderView else {
                         return UICollectionReusableView()
                     }
+            
             header.update(with: item)
-            header.tapHandler = { item -> Void in
-                // Player 를 띄운다
-                print("---> item title: \(item.convertToTrack()?.title)")
-            }
-                      
-            // TODO: 헤더 구성하기
             return header
         default:
             return UICollectionReusableView()

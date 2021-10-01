@@ -29,6 +29,7 @@
 		F0AA63752706C94C00F7957C /* STAYC - ASAP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA636C2706C94C00F7957C /* STAYC - ASAP.mp3 */; };
 		F0AA63772706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */; };
 		F0AA63792706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */; };
+		F0AA637E2706F25100F7957C /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = F0AA637D2706F25100F7957C /* test.png */; };
 		F0E22BA62705A40E00634349 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E22BA52705A40E00634349 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +58,7 @@
 		F0AA636C2706C94C00F7957C /* STAYC - ASAP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "STAYC - ASAP.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/STAYC - ASAP.mp3"; sourceTree = "<group>"; };
 		F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3"; sourceTree = "<group>"; };
 		F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3"; sourceTree = "<group>"; };
-		F0AA637A2706D3D000F7957C /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
+		F0AA637D2706F25100F7957C /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = test.png; path = ../../../../../Desktop/test.png; sourceTree = "<group>"; };
 		F0E22BA52705A40E00634349 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +92,6 @@
 		F002BA07270551DC001F3473 /* AppleMusicStApp */ = {
 			isa = PBXGroup;
 			children = (
-				F0AA637A2706D3D000F7957C /* test.jpeg */,
 				F0E22BA42705A3CA00634349 /* Track */,
 				F0E22BA32705A2D800634349 /* Home */,
 				F0E22BA72705A42200634349 /* Style */,
@@ -109,6 +109,7 @@
 		F0E22BA22705A29900634349 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F0AA637D2706F25100F7957C /* test.png */,
 				F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */,
 				F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */,
 				F0AA636A2706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 */,
@@ -220,6 +221,7 @@
 				F0AA63792706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 in Resources */,
 				F0AA63742706C94C00F7957C /* IU - Flu.mp3 in Resources */,
 				F002BA12270551DE001F3473 /* Assets.xcassets in Resources */,
+				F0AA637E2706F25100F7957C /* test.png in Resources */,
 				F002BA10270551DC001F3473 /* Main.storyboard in Resources */,
 				F0AA636E2706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 in Resources */,
 				F0AA63772706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 in Resources */,

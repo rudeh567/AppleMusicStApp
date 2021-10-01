@@ -39,8 +39,9 @@ extension AVPlayerItem {
               let artist = trackArtist,
               let albumName = trackAlbumName,
               let artwork = trackArtwork else {
-                  return nil
-        }
+                  return Track(title: "알수없음", artist: "아무개", albumName: "알수없음", artwork: UIImage(named: "test")!)
+              }
+        
         return Track(title: title, artist: artist, albumName: albumName, artwork: artwork)
     }
 }
