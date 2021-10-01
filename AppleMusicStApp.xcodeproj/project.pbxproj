@@ -19,6 +19,16 @@
 		F002BA4227058D37001F3473 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3F27058D24001F3473 /* Track.swift */; };
 		F002BA4327058D37001F3473 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA4027058D24001F3473 /* TrackManager.swift */; };
 		F0AA636327069FDD00F7957C /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA636227069FDD00F7957C /* TrackCollectionHeaderView.swift */; };
+		F0AA636D2706C94C00F7957C /* 마미손 - 사랑은.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63642706C94C00F7957C /* 마미손 - 사랑은.mp3 */; };
+		F0AA636E2706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63652706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 */; };
+		F0AA63702706C94C00F7957C /* IU - Coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63672706C94C00F7957C /* IU - Coin.mp3 */; };
+		F0AA63712706C94C00F7957C /* M.O.M(MSG워너비) - 바라만 본다.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63682706C94C00F7957C /* M.O.M(MSG워너비) - 바라만 본다.mp3 */; };
+		F0AA63722706C94C00F7957C /* MSG워너비(정상동기) - 나를 아는 사람.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63692706C94C00F7957C /* MSG워너비(정상동기) - 나를 아는 사람.mp3 */; };
+		F0AA63732706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA636A2706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 */; };
+		F0AA63742706C94C00F7957C /* IU - Flu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA636B2706C94C00F7957C /* IU - Flu.mp3 */; };
+		F0AA63752706C94C00F7957C /* STAYC - ASAP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA636C2706C94C00F7957C /* STAYC - ASAP.mp3 */; };
+		F0AA63772706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */; };
+		F0AA63792706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */; };
 		F0E22BA62705A40E00634349 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E22BA52705A40E00634349 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,11 +46,18 @@
 		F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
 		F002BA3F27058D24001F3473 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		F002BA4027058D24001F3473 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
-		F002BA44270592B3001F3473 /* 북향.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "북향.mp3"; sourceTree = "<group>"; };
-		F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "취기를 빌려.mp3"; sourceTree = "<group>"; };
-		F002BA46270592B3001F3473 /* Stay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stay.mp3; sourceTree = "<group>"; };
-		F002BA47270592B3001F3473 /* My Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Queen.mp3"; sourceTree = "<group>"; };
 		F0AA636227069FDD00F7957C /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
+		F0AA63642706C94C00F7957C /* 마미손 - 사랑은.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "마미손 - 사랑은.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/마미손 - 사랑은.mp3"; sourceTree = "<group>"; };
+		F0AA63652706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3"; sourceTree = "<group>"; };
+		F0AA63672706C94C00F7957C /* IU - Coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "IU - Coin.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/IU - Coin.mp3"; sourceTree = "<group>"; };
+		F0AA63682706C94C00F7957C /* M.O.M(MSG워너비) - 바라만 본다.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "M.O.M(MSG워너비) - 바라만 본다.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/M.O.M(MSG워너비) - 바라만 본다.mp3"; sourceTree = "<group>"; };
+		F0AA63692706C94C00F7957C /* MSG워너비(정상동기) - 나를 아는 사람.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "MSG워너비(정상동기) - 나를 아는 사람.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/MSG워너비(정상동기) - 나를 아는 사람.mp3"; sourceTree = "<group>"; };
+		F0AA636A2706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3"; sourceTree = "<group>"; };
+		F0AA636B2706C94C00F7957C /* IU - Flu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "IU - Flu.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/IU - Flu.mp3"; sourceTree = "<group>"; };
+		F0AA636C2706C94C00F7957C /* STAYC - ASAP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "STAYC - ASAP.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/STAYC - ASAP.mp3"; sourceTree = "<group>"; };
+		F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3"; sourceTree = "<group>"; };
+		F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3"; path = "../../../../../Desktop/애플뮤직앱 자료/Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3"; sourceTree = "<group>"; };
+		F0AA637A2706D3D000F7957C /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpeg; sourceTree = "<group>"; };
 		F0E22BA52705A40E00634349 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +91,7 @@
 		F002BA07270551DC001F3473 /* AppleMusicStApp */ = {
 			isa = PBXGroup;
 			children = (
+				F0AA637A2706D3D000F7957C /* test.jpeg */,
 				F0E22BA42705A3CA00634349 /* Track */,
 				F0E22BA32705A2D800634349 /* Home */,
 				F0E22BA72705A42200634349 /* Style */,
@@ -91,10 +109,16 @@
 		F0E22BA22705A29900634349 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F002BA44270592B3001F3473 /* 북향.mp3 */,
-				F002BA46270592B3001F3473 /* Stay.mp3 */,
-				F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */,
-				F002BA47270592B3001F3473 /* My Queen.mp3 */,
+				F0AA63782706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 */,
+				F0AA63762706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 */,
+				F0AA636A2706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 */,
+				F0AA63642706C94C00F7957C /* 마미손 - 사랑은.mp3 */,
+				F0AA63672706C94C00F7957C /* IU - Coin.mp3 */,
+				F0AA636B2706C94C00F7957C /* IU - Flu.mp3 */,
+				F0AA63652706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 */,
+				F0AA63682706C94C00F7957C /* M.O.M(MSG워너비) - 바라만 본다.mp3 */,
+				F0AA63692706C94C00F7957C /* MSG워너비(정상동기) - 나를 아는 사람.mp3 */,
+				F0AA636C2706C94C00F7957C /* STAYC - ASAP.mp3 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -187,9 +211,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0AA63712706C94C00F7957C /* M.O.M(MSG워너비) - 바라만 본다.mp3 in Resources */,
 				F002BA15270551DE001F3473 /* LaunchScreen.storyboard in Resources */,
+				F0AA636D2706C94C00F7957C /* 마미손 - 사랑은.mp3 in Resources */,
+				F0AA63732706C94C00F7957C /* 규현 - 내 마음이 움찔했던 순간 (취향저격 그녀 X 규현)   가사.mp3 in Resources */,
+				F0AA63752706C94C00F7957C /* STAYC - ASAP.mp3 in Resources */,
+				F0AA63702706C94C00F7957C /* IU - Coin.mp3 in Resources */,
+				F0AA63792706D3C000F7957C /* Stream K.Will (케이윌) - 시간을 거슬러 (낮에 뜨는 달 X 케이윌) (Back In Time (The Moon during the Day)) by L2Share♫141 _ Listen online for free on SoundCloud.mp3 in Resources */,
+				F0AA63742706C94C00F7957C /* IU - Flu.mp3 in Resources */,
 				F002BA12270551DE001F3473 /* Assets.xcassets in Resources */,
 				F002BA10270551DC001F3473 /* Main.storyboard in Resources */,
+				F0AA636E2706C94C00F7957C /* Jo Jung Suk (조정석) - ALOHA [아로하] Lyrics 가사 [Han Rom Eng] 슬기로운 의사생활 OST Part 3   Hospital Playlist OST.mp3 in Resources */,
+				F0AA63772706D14100F7957C /* 24kGoldn - Mood (Lyrics) ft. Iann Dior.mp3 in Resources */,
+				F0AA63722706C94C00F7957C /* MSG워너비(정상동기) - 나를 아는 사람.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
