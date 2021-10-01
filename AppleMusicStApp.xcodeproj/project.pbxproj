@@ -18,6 +18,7 @@
 		F002BA4127058D37001F3473 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3E27058D24001F3473 /* Extension+AVPlayerItem.swift */; };
 		F002BA4227058D37001F3473 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA3F27058D24001F3473 /* Track.swift */; };
 		F002BA4327058D37001F3473 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002BA4027058D24001F3473 /* TrackManager.swift */; };
+		F0AA636327069FDD00F7957C /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AA636227069FDD00F7957C /* TrackCollectionHeaderView.swift */; };
 		F0E22BA62705A40E00634349 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E22BA52705A40E00634349 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		F002BA45270592B3001F3473 /* 취기를 빌려.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "취기를 빌려.mp3"; sourceTree = "<group>"; };
 		F002BA46270592B3001F3473 /* Stay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stay.mp3; sourceTree = "<group>"; };
 		F002BA47270592B3001F3473 /* My Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My Queen.mp3"; sourceTree = "<group>"; };
+		F0AA636227069FDD00F7957C /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
 		F0E22BA52705A40E00634349 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				F002BA0E270551DC001F3473 /* Main.storyboard */,
 				F002BA3427058A6E001F3473 /* TrackCollectionViewCell.swift */,
 				F002BA2A270557DD001F3473 /* HomeViewController.swift */,
+				F0AA636227069FDD00F7957C /* TrackCollectionHeaderView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				F002BA4327058D37001F3473 /* TrackManager.swift in Sources */,
 				F002BA2B270557DD001F3473 /* HomeViewController.swift in Sources */,
 				F002BA4227058D37001F3473 /* Track.swift in Sources */,
+				F0AA636327069FDD00F7957C /* TrackCollectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
