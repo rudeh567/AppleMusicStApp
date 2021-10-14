@@ -37,6 +37,11 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lzF-4c-gEN">
                                 <rect key="frame" x="18" y="690" width="378" height="31"/>
+                                <connections>
+                                    <action selector="beginDrag:" destination="Y6W-OH-hqX" eventType="valueChanged" id="jAe-1I-zaR"/>
+                                    <action selector="endDrag:" destination="Y6W-OH-hqX" eventType="valueChanged" id="97H-gX-seN"/>
+                                    <action selector="seek:" destination="Y6W-OH-hqX" eventType="valueChanged" id="4xp-6B-Ehd"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIy-Vw-sBp">
                                 <rect key="frame" x="179.5" y="765" width="55" height="55"/>
@@ -48,6 +53,9 @@
                                 <buttonConfiguration key="configuration" style="plain" image="play.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="40"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="togglePlayButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="6yp-3D-ykr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJF-ZR-m3w">
                                 <rect key="frame" x="20" y="730" width="39" height="17"/>
@@ -83,13 +91,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="artistLabel" destination="NTG-js-WNV" id="6ON-rN-C3P"/>
-                        <outlet property="currentTimeLabel" destination="oJF-ZR-m3w" id="H3h-8x-8HX"/>
-                        <outlet property="playControlButton" destination="xIy-Vw-sBp" id="tOb-AG-qZP"/>
-                        <outlet property="thumbnailImageVIew" destination="aUg-cj-hZ3" id="0PK-mN-TAh"/>
-                        <outlet property="timeSlider" destination="lzF-4c-gEN" id="Rzi-EJ-UmB"/>
-                        <outlet property="titleLabel" destination="BuC-gZ-smh" id="hy9-NS-fNZ"/>
-                        <outlet property="totalTimeLabel" destination="Vtp-nK-AcF" id="G6K-E2-0rw"/>
+                        <outlet property="artistLabel" destination="NTG-js-WNV" id="YYX-eP-4W6"/>
+                        <outlet property="currentTimeLabel" destination="oJF-ZR-m3w" id="9Hn-Kx-nnD"/>
+                        <outlet property="playControlButton" destination="xIy-Vw-sBp" id="ka1-dR-flg"/>
+                        <outlet property="thumbnailImageView" destination="aUg-cj-hZ3" id="aKT-BQ-W3I"/>
+                        <outlet property="timeSlider" destination="lzF-4c-gEN" id="UgW-Z7-0XE"/>
+                        <outlet property="titleLabel" destination="BuC-gZ-smh" id="4x6-AD-9cg"/>
+                        <outlet property="totalDurationLabel" destination="Vtp-nK-AcF" id="JVW-H7-oXl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
